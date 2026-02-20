@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:untitled1/example_four.dart';
+import 'package:untitled1/example_three.dart';
+import 'package:untitled1/example_two.dart';
 
 import 'home_screen.dart';
 

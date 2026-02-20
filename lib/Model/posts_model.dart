@@ -1,45 +1,51 @@
+/// userId : 1
+/// id : 1
+/// title : "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
+/// body : "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+
 class PostsModel {
-  final int userId;
-  final int id;
-  final String title;
-  final String body;
-
   PostsModel({
-    required this.userId,
-    required this.id,
-    required this.title,
-    required this.body,
-  });
+      num? userId, 
+      num? id, 
+      String? title, 
+      String? body,}){
+    _userId = userId;
+    _id = id;
+    _title = title;
+    _body = body;
+}
 
-  factory PostsModel.fromJson(Map<String, dynamic> json) {
-    return PostsModel(
-      userId: json['userId'],
-      id: json['id'],
-      title: json['title'],
-      body: json['body'],
-    );
+  PostsModel.fromJson(dynamic json) {
+    _userId = json['userId'];
+    _id = json['id'];
+    _title = json['title'];
+    _body = json['body'];
   }
+  num? _userId;
+  num? _id;
+  String? _title;
+  String? _body;
+PostsModel copyWith({  num? userId,
+  num? id,
+  String? title,
+  String? body,
+}) => PostsModel(  userId: userId ?? _userId,
+  id: id ?? _id,
+  title: title ?? _title,
+  body: body ?? _body,
+);
+  num? get userId => _userId;
+  num? get id => _id;
+  String? get title => _title;
+  String? get body => _body;
 
   Map<String, dynamic> toJson() {
-    return {
-      'userId': userId,
-      'id': id,
-      'title': title,
-      'body': body,
-    };
+    final map = <String, dynamic>{};
+    map['userId'] = _userId;
+    map['id'] = _id;
+    map['title'] = _title;
+    map['body'] = _body;
+    return map;
   }
 
-  PostsModel copyWith({
-    int? userId,
-    int? id,
-    String? title,
-    String? body,
-  }) {
-    return PostsModel(
-      userId: userId ?? this.userId,
-      id: id ?? this.id,
-      title: title ?? this.title,
-      body: body ?? this.body,
-    );
-  }
 }

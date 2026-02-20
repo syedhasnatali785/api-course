@@ -1,14 +1,14 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:http/http.dart';
+import 'package:http/http.dart' as http;
 import 'package:untitled1/Model/posts_model.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
   List<PostsModel> postList = [];
   Future<List<PostsModel>> getPostApi() async {
-    final response = await get(
+    final response = await http.get(
       Uri.parse('https://jsonplaceholder.typicode.com/posts'),
     );
     var data = jsonDecode(response.body.toString());
@@ -24,18 +24,32 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Column(children: [
-      Expanded(
-        child: FutureBuilder(future:getPostApi() , builder: (context, snapshot){
-        if(!snapshot.hasData){
-          return Text("Loading...");
-        }else{
-          return ListView.builder(itemCount: postList.length,itemBuilder: (context, index){
-        return Text(index.toString());
-          });
-        }
-        }),
-      )
-    ]));
+    return Scaffold(
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Expanded(
+            child: Center(
+              child: FutureBuilder(
+                future: getPostApi(),
+                builder: (context, snapshot) {
+                  if (!snapshot.hasData) {
+                    return Text("Loading...");
+                  } else {
+                    return ListView.builder(
+                      itemCount: postList.length,
+                      itemBuilder: (context, index) {
+                        return Text(postList[index].title.toString());
+                      },
+                    );
+                  }
+                },
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
