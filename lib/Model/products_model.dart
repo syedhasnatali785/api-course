@@ -1,528 +1,438 @@
-/// success : true
-/// message : "All data"
-/// data : [{"_id":"asdf231asdfadsfsad2438rjsd","on_sale":true,"sale_percent":20,"sold":20,"slider_new":false,"slider_recent":false,"slider_sold":false,"date":"2023-01-05T07: 56: 19.219Z","title":"TMTS121-50199","categories":{"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"clothes","image":"https: //images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"},"subcat":{"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"Shirts"},"shop":{"_id":"asdf231asdfadsfsad2438rjsd","is_active":false,"created_At":"2023-01-05T07: 56: 19.219Z","name":"Shirts","description":"This is enderobe brand","shopemail":"adenreobe@gmail.com","shopaddress":"Islamabad F8","shopcity":"Islamabad","userid":"23asdfasfdsfd","image":"https://images.pexels.com/photos/5531004/pexels-photo-5531004.jpeg?auto=compress&cs=tinysrgb&w=1200"},"price":"2500","sale_title":"Winter Sale","sale_price":"2300","description":"22% off all the sales ","color":"#FF6347,#CD5C5C","size":"S,M,L,XL,XXL","in_wishlist":true,"images":[{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/336372/pexels-photo-336372.jpeg?auto=compress&cs=tinysrgb&w=1200"}]},{"_id":"asdf231asdfadsfsad2438rjsd","on_sale":true,"sale_percent":20,"sold":20,"slider_new":false,"slider_recent":false,"slider_sold":false,"date":"2023-01-05T07: 56: 19.219Z","title":"TMTS121-50199","categories":{"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"clothes","image":"https: //images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"},"subcat":{"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"Shirts"},"shop":{"_id":"asdf231asdfadsfsad2438rjsd","is_active":false,"created_At":"2023-01-05T07: 56: 19.219Z","name":"Shirts","description":"This is enderobe brand","shopemail":"adenreobe@gmail.com","shopaddress":"Islamabad F8","shopcity":"Islamabad","userid":"23asdfasfdsfd","image":"https://images.pexels.com/photos/5531004/pexels-photo-5531004.jpeg?auto=compress&cs=tinysrgb&w=1200"},"price":"2500","sale_title":"Winter Sale","sale_price":"2300","description":"22% off all the sales ","color":"#FF6347,#CD5C5C","size":"S,M,L,XL,XXL","in_wishlist":true,"images":[{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/336372/pexels-photo-336372.jpeg?auto=compress&cs=tinysrgb&w=1200"}]},{"_id":"asdf231asdfadsfsad2438rjsd","on_sale":true,"sale_percent":20,"sold":20,"slider_new":false,"slider_recent":false,"slider_sold":false,"date":"2023-01-05T07: 56: 19.219Z","title":"TMTS121-50199","categories":{"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"clothes","image":"https: //images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"},"subcat":{"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"Shirts"},"shop":{"_id":"asdf231asdfadsfsad2438rjsd","is_active":false,"created_At":"2023-01-05T07: 56: 19.219Z","name":"Shirts","description":"This is enderobe brand","shopemail":"adenreobe@gmail.com","shopaddress":"Islamabad F8","shopcity":"Islamabad","userid":"23asdfasfdsfd","image":"https://images.pexels.com/photos/5531004/pexels-photo-5531004.jpeg?auto=compress&cs=tinysrgb&w=1200"},"price":"2500","sale_title":"Winter Sale","sale_price":"2300","description":"22% off all the sales ","color":"#FF6347,#CD5C5C","size":"S,M,L,XL,XXL","in_wishlist":true,"images":[{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/336372/pexels-photo-336372.jpeg?auto=compress&cs=tinysrgb&w=1200"}]}]
+/// products : [{"id":1,"title":"Essence Mascara Lash Princess","description":"The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.","category":"beauty","price":9.99,"discountPercentage":10.48,"rating":2.56,"stock":99,"tags":["beauty","mascara"],"brand":"Essence","sku":"BEA-ESS-ESS-001","weight":4,"dimensions":{"width":15.14,"height":13.08,"depth":22.99},"warrantyInformation":"1 week warranty","shippingInformation":"Ships in 3-5 business days","availabilityStatus":"In Stock","reviews":[{"rating":3,"comment":"Would not recommend!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Eleanor Collins","reviewerEmail":"eleanor.collins@x.dummyjson.com"},{"rating":4,"comment":"Very satisfied!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Lucas Gordon","reviewerEmail":"lucas.gordon@x.dummyjson.com"},{"rating":5,"comment":"Highly impressed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Eleanor Collins","reviewerEmail":"eleanor.collins@x.dummyjson.com"}],"returnPolicy":"No return policy","minimumOrderQuantity":48,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"5784719087687","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"},{"id":2,"title":"Eyeshadow Palette with Mirror","description":"The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.","category":"beauty","price":19.99,"discountPercentage":18.19,"rating":2.86,"stock":34,"tags":["beauty","eyeshadow"],"brand":"Glamour Beauty","sku":"BEA-GLA-EYE-002","weight":9,"dimensions":{"width":9.26,"height":22.47,"depth":27.67},"warrantyInformation":"1 year warranty","shippingInformation":"Ships in 2 weeks","availabilityStatus":"In Stock","reviews":[{"rating":5,"comment":"Great product!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Savannah Gomez","reviewerEmail":"savannah.gomez@x.dummyjson.com"},{"rating":4,"comment":"Awesome product!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Christian Perez","reviewerEmail":"christian.perez@x.dummyjson.com"},{"rating":1,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Nicholas Bailey","reviewerEmail":"nicholas.bailey@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":20,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"9170275171413","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp"},{"id":3,"title":"Powder Canister","description":"The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.","category":"beauty","price":14.99,"discountPercentage":9.84,"rating":4.64,"stock":89,"tags":["beauty","face powder"],"brand":"Velvet Touch","sku":"BEA-VEL-POW-003","weight":8,"dimensions":{"width":29.27,"height":27.93,"depth":20.59},"warrantyInformation":"3 months warranty","shippingInformation":"Ships in 1-2 business days","availabilityStatus":"In Stock","reviews":[{"rating":4,"comment":"Would buy again!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Alexander Jones","reviewerEmail":"alexander.jones@x.dummyjson.com"},{"rating":5,"comment":"Highly impressed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Elijah Cruz","reviewerEmail":"elijah.cruz@x.dummyjson.com"},{"rating":1,"comment":"Very dissatisfied!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Avery Perez","reviewerEmail":"avery.perez@x.dummyjson.com"}],"returnPolicy":"No return policy","minimumOrderQuantity":22,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"8418883906837","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp"},{"id":4,"title":"Red Lipstick","description":"The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.","category":"beauty","price":12.99,"discountPercentage":12.16,"rating":4.36,"stock":91,"tags":["beauty","lipstick"],"brand":"Chic Cosmetics","sku":"BEA-CHI-LIP-004","weight":1,"dimensions":{"width":18.11,"height":28.38,"depth":22.17},"warrantyInformation":"3 year warranty","shippingInformation":"Ships in 1 week","availabilityStatus":"In Stock","reviews":[{"rating":4,"comment":"Great product!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Liam Garcia","reviewerEmail":"liam.garcia@x.dummyjson.com"},{"rating":5,"comment":"Great product!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Ruby Andrews","reviewerEmail":"ruby.andrews@x.dummyjson.com"},{"rating":5,"comment":"Would buy again!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Clara Berry","reviewerEmail":"clara.berry@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":40,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"9467746727219","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp"},{"id":5,"title":"Red Nail Polish","description":"The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.","category":"beauty","price":8.99,"discountPercentage":11.44,"rating":4.32,"stock":79,"tags":["beauty","nail polish"],"brand":"Nail Couture","sku":"BEA-NAI-NAI-005","weight":8,"dimensions":{"width":21.63,"height":16.48,"depth":29.84},"warrantyInformation":"1 month warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":2,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Benjamin Wilson","reviewerEmail":"benjamin.wilson@x.dummyjson.com"},{"rating":5,"comment":"Great product!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Liam Smith","reviewerEmail":"liam.smith@x.dummyjson.com"},{"rating":1,"comment":"Very unhappy with my purchase!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Clara Berry","reviewerEmail":"clara.berry@x.dummyjson.com"}],"returnPolicy":"No return policy","minimumOrderQuantity":22,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"4063010628104","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/thumbnail.webp"},{"id":6,"title":"Calvin Klein CK One","description":"CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.","category":"fragrances","price":49.99,"discountPercentage":1.89,"rating":4.37,"stock":29,"tags":["fragrances","perfumes"],"brand":"Calvin Klein","sku":"FRA-CAL-CAL-006","weight":7,"dimensions":{"width":29.36,"height":27.76,"depth":20.72},"warrantyInformation":"1 week warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":2,"comment":"Very disappointed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Layla Young","reviewerEmail":"layla.young@x.dummyjson.com"},{"rating":4,"comment":"Fast shipping!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Daniel Cook","reviewerEmail":"daniel.cook@x.dummyjson.com"},{"rating":3,"comment":"Not as described!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Jacob Cooper","reviewerEmail":"jacob.cooper@x.dummyjson.com"}],"returnPolicy":"90 days return policy","minimumOrderQuantity":9,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"2451534060749","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp","https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/2.webp","https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/thumbnail.webp"},{"id":7,"title":"Chanel Coco Noir Eau De","description":"Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.","category":"fragrances","price":129.99,"discountPercentage":16.51,"rating":4.26,"stock":58,"tags":["fragrances","perfumes"],"brand":"Chanel","sku":"FRA-CHA-CHA-007","weight":7,"dimensions":{"width":24.5,"height":25.7,"depth":25.98},"warrantyInformation":"3 year warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":4,"comment":"Highly impressed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Ruby Andrews","reviewerEmail":"ruby.andrews@x.dummyjson.com"},{"rating":5,"comment":"Awesome product!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Leah Henderson","reviewerEmail":"leah.henderson@x.dummyjson.com"},{"rating":5,"comment":"Very happy with my purchase!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Xavier Wright","reviewerEmail":"xavier.wright@x.dummyjson.com"}],"returnPolicy":"No return policy","minimumOrderQuantity":1,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"4091737746820","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/1.webp","https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/2.webp","https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"},{"id":8,"title":"Dior J'adore","description":"J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.","category":"fragrances","price":89.99,"discountPercentage":14.72,"rating":3.8,"stock":98,"tags":["fragrances","perfumes"],"brand":"Dior","sku":"FRA-DIO-DIO-008","weight":4,"dimensions":{"width":27.67,"height":28.28,"depth":11.83},"warrantyInformation":"1 week warranty","shippingInformation":"Ships in 2 weeks","availabilityStatus":"In Stock","reviews":[{"rating":5,"comment":"Great value for money!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Nicholas Bailey","reviewerEmail":"nicholas.bailey@x.dummyjson.com"},{"rating":4,"comment":"Great value for money!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Penelope Harper","reviewerEmail":"penelope.harper@x.dummyjson.com"},{"rating":4,"comment":"Great product!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Emma Miller","reviewerEmail":"emma.miller@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":10,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"1445086097250","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/1.webp","https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/2.webp","https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/thumbnail.webp"},{"id":9,"title":"Dolce Shine Eau de","description":"Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.","category":"fragrances","price":69.99,"discountPercentage":0.62,"rating":3.96,"stock":4,"tags":["fragrances","perfumes"],"brand":"Dolce & Gabbana","sku":"FRA-DOL-DOL-009","weight":6,"dimensions":{"width":27.28,"height":29.88,"depth":18.3},"warrantyInformation":"3 year warranty","shippingInformation":"Ships in 1 month","availabilityStatus":"Low Stock","reviews":[{"rating":4,"comment":"Would buy again!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Mateo Bennett","reviewerEmail":"mateo.bennett@x.dummyjson.com"},{"rating":4,"comment":"Highly recommended!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Nolan Gonzalez","reviewerEmail":"nolan.gonzalez@x.dummyjson.com"},{"rating":5,"comment":"Very happy with my purchase!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Aurora Lawson","reviewerEmail":"aurora.lawson@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":2,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"3023868210708","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/1.webp","https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/2.webp","https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/thumbnail.webp"},{"id":10,"title":"Gucci Bloom Eau de","description":"Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.","category":"fragrances","price":79.99,"discountPercentage":14.39,"rating":2.74,"stock":91,"tags":["fragrances","perfumes"],"brand":"Gucci","sku":"FRA-GUC-GUC-010","weight":7,"dimensions":{"width":20.92,"height":21.68,"depth":11.2},"warrantyInformation":"6 months warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":1,"comment":"Very dissatisfied!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Cameron Perez","reviewerEmail":"cameron.perez@x.dummyjson.com"},{"rating":5,"comment":"Very happy with my purchase!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Daniel Cook","reviewerEmail":"daniel.cook@x.dummyjson.com"},{"rating":4,"comment":"Highly impressed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Addison Wright","reviewerEmail":"addison.wright@x.dummyjson.com"}],"returnPolicy":"No return policy","minimumOrderQuantity":2,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"3170832177880","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/1.webp","https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/2.webp","https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/thumbnail.webp"},{"id":11,"title":"Annibale Colombo Bed","description":"The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.","category":"furniture","price":1899.99,"discountPercentage":8.57,"rating":4.77,"stock":88,"tags":["furniture","beds"],"brand":"Annibale Colombo","sku":"FUR-ANN-ANN-011","weight":10,"dimensions":{"width":28.16,"height":25.36,"depth":17.28},"warrantyInformation":"1 year warranty","shippingInformation":"Ships in 1 month","availabilityStatus":"In Stock","reviews":[{"rating":2,"comment":"Would not recommend!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Christopher West","reviewerEmail":"christopher.west@x.dummyjson.com"},{"rating":4,"comment":"Highly impressed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Vivian Carter","reviewerEmail":"vivian.carter@x.dummyjson.com"},{"rating":1,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Mason Wright","reviewerEmail":"mason.wright@x.dummyjson.com"}],"returnPolicy":"No return policy","minimumOrderQuantity":1,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"3610757456581","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/2.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp"},{"id":12,"title":"Annibale Colombo Sofa","description":"The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.","category":"furniture","price":2499.99,"discountPercentage":14.4,"rating":3.92,"stock":60,"tags":["furniture","sofas"],"brand":"Annibale Colombo","sku":"FUR-ANN-ANN-012","weight":6,"dimensions":{"width":12.75,"height":20.55,"depth":19.06},"warrantyInformation":"Lifetime warranty","shippingInformation":"Ships in 1 week","availabilityStatus":"In Stock","reviews":[{"rating":3,"comment":"Very unhappy with my purchase!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Christian Perez","reviewerEmail":"christian.perez@x.dummyjson.com"},{"rating":5,"comment":"Fast shipping!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Lillian Bishop","reviewerEmail":"lillian.bishop@x.dummyjson.com"},{"rating":1,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Lillian Simmons","reviewerEmail":"lillian.simmons@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":1,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"1777662847736","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/2.webp","https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp"},{"id":13,"title":"Bedside Table African Cherry","description":"The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.","category":"furniture","price":299.99,"discountPercentage":19.09,"rating":2.87,"stock":64,"tags":["furniture","bedside tables"],"brand":"Furniture Co.","sku":"FUR-FUR-BED-013","weight":2,"dimensions":{"width":13.47,"height":24.99,"depth":27.35},"warrantyInformation":"5 year warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":4,"comment":"Excellent quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Aaliyah Hanson","reviewerEmail":"aaliyah.hanson@x.dummyjson.com"},{"rating":4,"comment":"Excellent quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Liam Smith","reviewerEmail":"liam.smith@x.dummyjson.com"},{"rating":4,"comment":"Highly recommended!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Avery Barnes","reviewerEmail":"avery.barnes@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":3,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"6441287925979","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp","https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/2.webp","https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp"},{"id":14,"title":"Knoll Saarinen Executive Conference Chair","description":"The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.","category":"furniture","price":499.99,"discountPercentage":2.01,"rating":4.88,"stock":26,"tags":["furniture","office chairs"],"brand":"Knoll","sku":"FUR-KNO-KNO-014","weight":10,"dimensions":{"width":13.81,"height":7.5,"depth":5.62},"warrantyInformation":"2 year warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":2,"comment":"Waste of money!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Ella Cook","reviewerEmail":"ella.cook@x.dummyjson.com"},{"rating":2,"comment":"Very dissatisfied!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Clara Berry","reviewerEmail":"clara.berry@x.dummyjson.com"},{"rating":5,"comment":"Would buy again!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Elena Long","reviewerEmail":"elena.long@x.dummyjson.com"}],"returnPolicy":"60 days return policy","minimumOrderQuantity":5,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"8919386859966","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp","https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/2.webp","https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp"},{"id":15,"title":"Wooden Bathroom Sink With Mirror","description":"The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.","category":"furniture","price":799.99,"discountPercentage":8.8,"rating":3.59,"stock":7,"tags":["furniture","bathroom"],"brand":"Bath Trends","sku":"FUR-BAT-WOO-015","weight":10,"dimensions":{"width":7.98,"height":8.88,"depth":28.46},"warrantyInformation":"3 year warranty","shippingInformation":"Ships in 3-5 business days","availabilityStatus":"Low Stock","reviews":[{"rating":4,"comment":"Fast shipping!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Logan Torres","reviewerEmail":"logan.torres@x.dummyjson.com"},{"rating":5,"comment":"Very pleased!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Aria Parker","reviewerEmail":"aria.parker@x.dummyjson.com"},{"rating":3,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Dylan Wells","reviewerEmail":"dylan.wells@x.dummyjson.com"}],"returnPolicy":"60 days return policy","minimumOrderQuantity":2,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"1958104402873","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/1.webp","https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/2.webp","https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/3.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp"},{"id":16,"title":"Apple","description":"Fresh and crisp apples, perfect for snacking or incorporating into various recipes.","category":"groceries","price":1.99,"discountPercentage":12.62,"rating":4.19,"stock":8,"tags":["fruits"],"sku":"GRO-BRD-APP-016","weight":9,"dimensions":{"width":13.66,"height":11.01,"depth":9.73},"warrantyInformation":"3 year warranty","shippingInformation":"Ships in 2 weeks","availabilityStatus":"In Stock","reviews":[{"rating":5,"comment":"Very satisfied!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Sophia Brown","reviewerEmail":"sophia.brown@x.dummyjson.com"},{"rating":1,"comment":"Very dissatisfied!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Scarlett Bowman","reviewerEmail":"scarlett.bowman@x.dummyjson.com"},{"rating":3,"comment":"Very unhappy with my purchase!","date":"2025-04-30T09:41:02.053Z","reviewerName":"William Gonzalez","reviewerEmail":"william.gonzalez@x.dummyjson.com"}],"returnPolicy":"90 days return policy","minimumOrderQuantity":7,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"7962803553314","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/apple/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/apple/thumbnail.webp"},{"id":17,"title":"Beef Steak","description":"High-quality beef steak, great for grilling or cooking to your preferred level of doneness.","category":"groceries","price":12.99,"discountPercentage":9.61,"rating":4.47,"stock":86,"tags":["meat"],"sku":"GRO-BRD-BEE-017","weight":10,"dimensions":{"width":18.9,"height":5.77,"depth":18.57},"warrantyInformation":"3 year warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":3,"comment":"Would not recommend!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Eleanor Tyler","reviewerEmail":"eleanor.tyler@x.dummyjson.com"},{"rating":4,"comment":"Fast shipping!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Alexander Jones","reviewerEmail":"alexander.jones@x.dummyjson.com"},{"rating":5,"comment":"Great value for money!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Natalie Harris","reviewerEmail":"natalie.harris@x.dummyjson.com"}],"returnPolicy":"60 days return policy","minimumOrderQuantity":43,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"5640063409695","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/beef-steak/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/beef-steak/thumbnail.webp"},{"id":18,"title":"Cat Food","description":"Nutritious cat food formulated to meet the dietary needs of your feline friend.","category":"groceries","price":8.99,"discountPercentage":9.58,"rating":3.13,"stock":46,"tags":["pet supplies","cat food"],"sku":"GRO-BRD-FOO-018","weight":10,"dimensions":{"width":18.08,"height":9.26,"depth":21.86},"warrantyInformation":"1 year warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":3,"comment":"Would not recommend!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Noah Lewis","reviewerEmail":"noah.lewis@x.dummyjson.com"},{"rating":3,"comment":"Very unhappy with my purchase!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Ruby Andrews","reviewerEmail":"ruby.andrews@x.dummyjson.com"},{"rating":2,"comment":"Very disappointed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Ethan Thompson","reviewerEmail":"ethan.thompson@x.dummyjson.com"}],"returnPolicy":"No return policy","minimumOrderQuantity":18,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"1483991328610","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/cat-food/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/cat-food/thumbnail.webp"},{"id":19,"title":"Chicken Meat","description":"Fresh and tender chicken meat, suitable for various culinary preparations.","category":"groceries","price":9.99,"discountPercentage":13.7,"rating":3.19,"stock":97,"tags":["meat"],"sku":"GRO-BRD-CHI-019","weight":1,"dimensions":{"width":11.03,"height":22.11,"depth":16.01},"warrantyInformation":"1 year warranty","shippingInformation":"Ships in 1 month","availabilityStatus":"In Stock","reviews":[{"rating":5,"comment":"Great product!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Mateo Bennett","reviewerEmail":"mateo.bennett@x.dummyjson.com"},{"rating":4,"comment":"Highly recommended!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Jackson Evans","reviewerEmail":"jackson.evans@x.dummyjson.com"},{"rating":3,"comment":"Not worth the price!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Sadie Morales","reviewerEmail":"sadie.morales@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":22,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"8829514594521","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/chicken-meat/1.webp","https://cdn.dummyjson.com/product-images/groceries/chicken-meat/2.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/chicken-meat/thumbnail.webp"},{"id":20,"title":"Cooking Oil","description":"Versatile cooking oil suitable for frying, sautéing, and various culinary applications.","category":"groceries","price":4.99,"discountPercentage":9.33,"rating":4.8,"stock":10,"tags":["cooking essentials"],"sku":"GRO-BRD-COO-020","weight":5,"dimensions":{"width":19.95,"height":27.54,"depth":24.86},"warrantyInformation":"Lifetime warranty","shippingInformation":"Ships in 1-2 business days","availabilityStatus":"In Stock","reviews":[{"rating":5,"comment":"Very happy with my purchase!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Victoria McDonald","reviewerEmail":"victoria.mcdonald@x.dummyjson.com"},{"rating":2,"comment":"Would not recommend!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Hazel Evans","reviewerEmail":"hazel.evans@x.dummyjson.com"},{"rating":5,"comment":"Would buy again!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Zoe Bennett","reviewerEmail":"zoe.bennett@x.dummyjson.com"}],"returnPolicy":"30 days return policy","minimumOrderQuantity":46,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"4874727824518","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/cooking-oil/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp"},{"id":21,"title":"Cucumber","description":"Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.","category":"groceries","price":1.49,"discountPercentage":0.16,"rating":4.07,"stock":84,"tags":["vegetables"],"sku":"GRO-BRD-CUC-021","weight":4,"dimensions":{"width":12.8,"height":28.38,"depth":21.34},"warrantyInformation":"2 year warranty","shippingInformation":"Ships in 1-2 business days","availabilityStatus":"In Stock","reviews":[{"rating":4,"comment":"Great product!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Lincoln Kelly","reviewerEmail":"lincoln.kelly@x.dummyjson.com"},{"rating":4,"comment":"Great value for money!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Savannah Gomez","reviewerEmail":"savannah.gomez@x.dummyjson.com"},{"rating":2,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"James Davis","reviewerEmail":"james.davis@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":2,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"5300066378225","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/cucumber/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/cucumber/thumbnail.webp"},{"id":22,"title":"Dog Food","description":"Specially formulated dog food designed to provide essential nutrients for your canine companion.","category":"groceries","price":10.99,"discountPercentage":10.27,"rating":4.55,"stock":71,"tags":["pet supplies","dog food"],"sku":"GRO-BRD-FOO-022","weight":10,"dimensions":{"width":16.93,"height":27.15,"depth":9.29},"warrantyInformation":"No warranty","shippingInformation":"Ships in 1-2 business days","availabilityStatus":"In Stock","reviews":[{"rating":5,"comment":"Excellent quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Nicholas Edwards","reviewerEmail":"nicholas.edwards@x.dummyjson.com"},{"rating":5,"comment":"Awesome product!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Zachary Lee","reviewerEmail":"zachary.lee@x.dummyjson.com"},{"rating":4,"comment":"Great product!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Nova Cooper","reviewerEmail":"nova.cooper@x.dummyjson.com"}],"returnPolicy":"60 days return policy","minimumOrderQuantity":43,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"5906686116469","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/dog-food/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/dog-food/thumbnail.webp"},{"id":23,"title":"Eggs","description":"Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.","category":"groceries","price":2.99,"discountPercentage":11.05,"rating":2.53,"stock":9,"tags":["dairy"],"sku":"GRO-BRD-EGG-023","weight":2,"dimensions":{"width":11.42,"height":7.44,"depth":16.95},"warrantyInformation":"1 week warranty","shippingInformation":"Ships in 1 week","availabilityStatus":"In Stock","reviews":[{"rating":3,"comment":"Disappointing product!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Penelope King","reviewerEmail":"penelope.king@x.dummyjson.com"},{"rating":3,"comment":"Poor quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Eleanor Tyler","reviewerEmail":"eleanor.tyler@x.dummyjson.com"},{"rating":4,"comment":"Very pleased!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Benjamin Foster","reviewerEmail":"benjamin.foster@x.dummyjson.com"}],"returnPolicy":"No return policy","minimumOrderQuantity":32,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"3478638588469","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/eggs/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/eggs/thumbnail.webp"},{"id":24,"title":"Fish Steak","description":"Quality fish steak, suitable for grilling, baking, or pan-searing.","category":"groceries","price":14.99,"discountPercentage":4.23,"rating":3.78,"stock":74,"tags":["seafood"],"sku":"GRO-BRD-FIS-024","weight":6,"dimensions":{"width":14.95,"height":26.31,"depth":11.27},"warrantyInformation":"1 month warranty","shippingInformation":"Ships in 3-5 business days","availabilityStatus":"In Stock","reviews":[{"rating":2,"comment":"Would not buy again!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Caleb Perkins","reviewerEmail":"caleb.perkins@x.dummyjson.com"},{"rating":5,"comment":"Excellent quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Isabella Jackson","reviewerEmail":"isabella.jackson@x.dummyjson.com"},{"rating":4,"comment":"Great value for money!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Nathan Dixon","reviewerEmail":"nathan.dixon@x.dummyjson.com"}],"returnPolicy":"60 days return policy","minimumOrderQuantity":50,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"9595036192098","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/fish-steak/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/fish-steak/thumbnail.webp"},{"id":25,"title":"Green Bell Pepper","description":"Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.","category":"groceries","price":1.29,"discountPercentage":0.16,"rating":3.25,"stock":33,"tags":["vegetables"],"sku":"GRO-BRD-GRE-025","weight":2,"dimensions":{"width":15.33,"height":26.65,"depth":14.44},"warrantyInformation":"1 month warranty","shippingInformation":"Ships in 1 week","availabilityStatus":"In Stock","reviews":[{"rating":4,"comment":"Highly recommended!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Avery Carter","reviewerEmail":"avery.carter@x.dummyjson.com"},{"rating":3,"comment":"Would not recommend!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Henry Hill","reviewerEmail":"henry.hill@x.dummyjson.com"},{"rating":5,"comment":"Excellent quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Addison Wright","reviewerEmail":"addison.wright@x.dummyjson.com"}],"returnPolicy":"30 days return policy","minimumOrderQuantity":12,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"2365227493323","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/thumbnail.webp"},{"id":26,"title":"Green Chili Pepper","description":"Spicy green chili pepper, ideal for adding heat to your favorite recipes.","category":"groceries","price":0.99,"discountPercentage":1,"rating":3.66,"stock":3,"tags":["vegetables"],"sku":"GRO-BRD-GRE-026","weight":7,"dimensions":{"width":15.38,"height":18.12,"depth":19.92},"warrantyInformation":"2 year warranty","shippingInformation":"Ships in 1 week","availabilityStatus":"Low Stock","reviews":[{"rating":4,"comment":"Great product!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Luna Russell","reviewerEmail":"luna.russell@x.dummyjson.com"},{"rating":1,"comment":"Waste of money!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Noah Lewis","reviewerEmail":"noah.lewis@x.dummyjson.com"},{"rating":3,"comment":"Very disappointed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Clara Berry","reviewerEmail":"clara.berry@x.dummyjson.com"}],"returnPolicy":"30 days return policy","minimumOrderQuantity":39,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"9335000538563","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/thumbnail.webp"},{"id":27,"title":"Honey Jar","description":"Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.","category":"groceries","price":6.99,"discountPercentage":14.4,"rating":3.97,"stock":34,"tags":["condiments"],"sku":"GRO-BRD-HON-027","weight":2,"dimensions":{"width":9.28,"height":21.72,"depth":17.74},"warrantyInformation":"1 month warranty","shippingInformation":"Ships in 1-2 business days","availabilityStatus":"In Stock","reviews":[{"rating":1,"comment":"Very disappointed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Autumn Gomez","reviewerEmail":"autumn.gomez@x.dummyjson.com"},{"rating":4,"comment":"Highly impressed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Benjamin Wilson","reviewerEmail":"benjamin.wilson@x.dummyjson.com"},{"rating":2,"comment":"Very disappointed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Nicholas Edwards","reviewerEmail":"nicholas.edwards@x.dummyjson.com"}],"returnPolicy":"90 days return policy","minimumOrderQuantity":47,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"6354306346329","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/honey-jar/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/honey-jar/thumbnail.webp"},{"id":28,"title":"Ice Cream","description":"Creamy and delicious ice cream, available in various flavors for a delightful treat.","category":"groceries","price":5.49,"discountPercentage":8.69,"rating":3.39,"stock":27,"tags":["desserts"],"sku":"GRO-BRD-CRE-028","weight":1,"dimensions":{"width":14.83,"height":15.07,"depth":24.2},"warrantyInformation":"1 month warranty","shippingInformation":"Ships in 2 weeks","availabilityStatus":"In Stock","reviews":[{"rating":5,"comment":"Very pleased!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Elijah Cruz","reviewerEmail":"elijah.cruz@x.dummyjson.com"},{"rating":4,"comment":"Excellent quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Jace Smith","reviewerEmail":"jace.smith@x.dummyjson.com"},{"rating":5,"comment":"Highly impressed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Sadie Morales","reviewerEmail":"sadie.morales@x.dummyjson.com"}],"returnPolicy":"No return policy","minimumOrderQuantity":42,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"0788954559076","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/ice-cream/1.webp","https://cdn.dummyjson.com/product-images/groceries/ice-cream/2.webp","https://cdn.dummyjson.com/product-images/groceries/ice-cream/3.webp","https://cdn.dummyjson.com/product-images/groceries/ice-cream/4.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/ice-cream/thumbnail.webp"},{"id":29,"title":"Juice","description":"Refreshing fruit juice, packed with vitamins and great for staying hydrated.","category":"groceries","price":3.99,"discountPercentage":12.06,"rating":3.94,"stock":50,"tags":["beverages"],"sku":"GRO-BRD-JUI-029","weight":1,"dimensions":{"width":18.56,"height":21.46,"depth":28.02},"warrantyInformation":"6 months warranty","shippingInformation":"Ships in 1 week","availabilityStatus":"In Stock","reviews":[{"rating":5,"comment":"Excellent quality!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Nolan Gonzalez","reviewerEmail":"nolan.gonzalez@x.dummyjson.com"},{"rating":4,"comment":"Would buy again!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Bella Grant","reviewerEmail":"bella.grant@x.dummyjson.com"},{"rating":5,"comment":"Awesome product!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Aria Flores","reviewerEmail":"aria.flores@x.dummyjson.com"}],"returnPolicy":"No return policy","minimumOrderQuantity":25,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"6936112580956","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/juice/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/juice/thumbnail.webp"},{"id":30,"title":"Kiwi","description":"Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.","category":"groceries","price":2.49,"discountPercentage":15.22,"rating":4.93,"stock":99,"tags":["fruits"],"sku":"GRO-BRD-KIW-030","weight":5,"dimensions":{"width":19.4,"height":18.67,"depth":17.13},"warrantyInformation":"6 months warranty","shippingInformation":"Ships overnight","availabilityStatus":"In Stock","reviews":[{"rating":4,"comment":"Highly recommended!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Emily Brown","reviewerEmail":"emily.brown@x.dummyjson.com"},{"rating":2,"comment":"Would not buy again!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Jackson Morales","reviewerEmail":"jackson.morales@x.dummyjson.com"},{"rating":4,"comment":"Fast shipping!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Nora Russell","reviewerEmail":"nora.russell@x.dummyjson.com"}],"returnPolicy":"7 days return policy","minimumOrderQuantity":30,"meta":{"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"2530169917252","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"},"images":["https://cdn.dummyjson.com/product-images/groceries/kiwi/1.webp"],"thumbnail":"https://cdn.dummyjson.com/product-images/groceries/kiwi/thumbnail.webp"}]
+/// total : 194
+/// skip : 0
+/// limit : 30
 
 class ProductsModel {
   ProductsModel({
-      bool? success, 
-      String? message, 
-      List<Data>? data,}){
-    _success = success;
-    _message = message;
-    _data = data;
+      List<Products>? products, 
+      num? total, 
+      num? skip, 
+      num? limit,}){
+    _products = products;
+    _total = total;
+    _skip = skip;
+    _limit = limit;
 }
 
   ProductsModel.fromJson(dynamic json) {
-    _success = json['success'];
-    _message = json['message'];
-    if (json['data'] != null) {
-      _data = [];
-      json['data'].forEach((v) {
-        _data?.add(Data.fromJson(v));
+    if (json['products'] != null) {
+      _products = [];
+      json['products'].forEach((v) {
+        _products?.add(Products.fromJson(v));
       });
     }
+    _total = json['total'];
+    _skip = json['skip'];
+    _limit = json['limit'];
   }
-  bool? _success;
-  String? _message;
-  List<Data>? _data;
-ProductsModel copyWith({  bool? success,
-  String? message,
-  List<Data>? data,
-}) => ProductsModel(  success: success ?? _success,
-  message: message ?? _message,
-  data: data ?? _data,
+  List<Products>? _products;
+  num? _total;
+  num? _skip;
+  num? _limit;
+ProductsModel copyWith({  List<Products>? products,
+  num? total,
+  num? skip,
+  num? limit,
+}) => ProductsModel(  products: products ?? _products,
+  total: total ?? _total,
+  skip: skip ?? _skip,
+  limit: limit ?? _limit,
 );
-  bool? get success => _success;
-  String? get message => _message;
-  List<Data>? get data => _data;
+  List<Products>? get products => _products;
+  num? get total => _total;
+  num? get skip => _skip;
+  num? get limit => _limit;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
-    map['success'] = _success;
-    map['message'] = _message;
-    if (_data != null) {
-      map['data'] = _data?.map((v) => v.toJson()).toList();
+    if (_products != null) {
+      map['products'] = _products?.map((v) => v.toJson()).toList();
     }
+    map['total'] = _total;
+    map['skip'] = _skip;
+    map['limit'] = _limit;
     return map;
   }
 
 }
 
-/// _id : "asdf231asdfadsfsad2438rjsd"
-/// on_sale : true
-/// sale_percent : 20
-/// sold : 20
-/// slider_new : false
-/// slider_recent : false
-/// slider_sold : false
-/// date : "2023-01-05T07: 56: 19.219Z"
-/// title : "TMTS121-50199"
-/// categories : {"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"clothes","image":"https: //images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"}
-/// subcat : {"_id":"asdf231asdfadsfsad2438rjsd","type":"Women","sale_percent":20,"date":"2023-01-05T07: 56: 19.219Z","name":"Shirts"}
-/// shop : {"_id":"asdf231asdfadsfsad2438rjsd","is_active":false,"created_At":"2023-01-05T07: 56: 19.219Z","name":"Shirts","description":"This is enderobe brand","shopemail":"adenreobe@gmail.com","shopaddress":"Islamabad F8","shopcity":"Islamabad","userid":"23asdfasfdsfd","image":"https://images.pexels.com/photos/5531004/pexels-photo-5531004.jpeg?auto=compress&cs=tinysrgb&w=1200"}
-/// price : "2500"
-/// sale_title : "Winter Sale"
-/// sale_price : "2300"
-/// description : "22% off all the sales "
-/// color : "#FF6347,#CD5C5C"
-/// size : "S,M,L,XL,XXL"
-/// in_wishlist : true
-/// images : [{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"},{"id":"2342asdfasdf34","url":"https://images.pexels.com/photos/336372/pexels-photo-336372.jpeg?auto=compress&cs=tinysrgb&w=1200"}]
+/// id : 1
+/// title : "Essence Mascara Lash Princess"
+/// description : "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula."
+/// category : "beauty"
+/// price : 9.99
+/// discountPercentage : 10.48
+/// rating : 2.56
+/// stock : 99
+/// tags : ["beauty","mascara"]
+/// brand : "Essence"
+/// sku : "BEA-ESS-ESS-001"
+/// weight : 4
+/// dimensions : {"width":15.14,"height":13.08,"depth":22.99}
+/// warrantyInformation : "1 week warranty"
+/// shippingInformation : "Ships in 3-5 business days"
+/// availabilityStatus : "In Stock"
+/// reviews : [{"rating":3,"comment":"Would not recommend!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Eleanor Collins","reviewerEmail":"eleanor.collins@x.dummyjson.com"},{"rating":4,"comment":"Very satisfied!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Lucas Gordon","reviewerEmail":"lucas.gordon@x.dummyjson.com"},{"rating":5,"comment":"Highly impressed!","date":"2025-04-30T09:41:02.053Z","reviewerName":"Eleanor Collins","reviewerEmail":"eleanor.collins@x.dummyjson.com"}]
+/// returnPolicy : "No return policy"
+/// minimumOrderQuantity : 48
+/// meta : {"createdAt":"2025-04-30T09:41:02.053Z","updatedAt":"2025-04-30T09:41:02.053Z","barcode":"5784719087687","qrCode":"https://cdn.dummyjson.com/public/qr-code.png"}
+/// images : ["https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"]
+/// thumbnail : "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp"
 
-class Data {
-  Data({
-      String? id, 
-      bool? onSale, 
-      num? salePercent, 
-      num? sold, 
-      bool? sliderNew, 
-      bool? sliderRecent, 
-      bool? sliderSold, 
-      String? date, 
+class Products {
+  Products({
+      num? id, 
       String? title, 
-      Categories? categories, 
-      Subcat? subcat, 
-      Shop? shop, 
-      String? price, 
-      String? saleTitle, 
-      String? salePrice, 
       String? description, 
-      String? color, 
-      String? size, 
-      bool? inWishlist, 
-      List<Images>? images,}){
+      String? category, 
+      num? price, 
+      num? discountPercentage, 
+      num? rating, 
+      num? stock, 
+      List<String>? tags, 
+      String? brand, 
+      String? sku, 
+      num? weight, 
+      Dimensions? dimensions, 
+      String? warrantyInformation, 
+      String? shippingInformation, 
+      String? availabilityStatus, 
+      List<Reviews>? reviews, 
+      String? returnPolicy, 
+      num? minimumOrderQuantity, 
+      Meta? meta, 
+      List<String>? images, 
+      String? thumbnail,}){
     _id = id;
-    _onSale = onSale;
-    _salePercent = salePercent;
-    _sold = sold;
-    _sliderNew = sliderNew;
-    _sliderRecent = sliderRecent;
-    _sliderSold = sliderSold;
-    _date = date;
     _title = title;
-    _categories = categories;
-    _subcat = subcat;
-    _shop = shop;
-    _price = price;
-    _saleTitle = saleTitle;
-    _salePrice = salePrice;
     _description = description;
-    _color = color;
-    _size = size;
-    _inWishlist = inWishlist;
+    _category = category;
+    _price = price;
+    _discountPercentage = discountPercentage;
+    _rating = rating;
+    _stock = stock;
+    _tags = tags;
+    _brand = brand;
+    _sku = sku;
+    _weight = weight;
+    _dimensions = dimensions;
+    _warrantyInformation = warrantyInformation;
+    _shippingInformation = shippingInformation;
+    _availabilityStatus = availabilityStatus;
+    _reviews = reviews;
+    _returnPolicy = returnPolicy;
+    _minimumOrderQuantity = minimumOrderQuantity;
+    _meta = meta;
     _images = images;
+    _thumbnail = thumbnail;
 }
 
-  Data.fromJson(dynamic json) {
-    _id = json['_id'];
-    _onSale = json['on_sale'];
-    _salePercent = json['sale_percent'];
-    _sold = json['sold'];
-    _sliderNew = json['slider_new'];
-    _sliderRecent = json['slider_recent'];
-    _sliderSold = json['slider_sold'];
-    _date = json['date'];
+  Products.fromJson(dynamic json) {
+    _id = json['id'];
     _title = json['title'];
-    _categories = json['categories'] != null ? Categories.fromJson(json['categories']) : null;
-    _subcat = json['subcat'] != null ? Subcat.fromJson(json['subcat']) : null;
-    _shop = json['shop'] != null ? Shop.fromJson(json['shop']) : null;
-    _price = json['price'];
-    _saleTitle = json['sale_title'];
-    _salePrice = json['sale_price'];
     _description = json['description'];
-    _color = json['color'];
-    _size = json['size'];
-    _inWishlist = json['in_wishlist'];
-    if (json['images'] != null) {
-      _images = [];
-      json['images'].forEach((v) {
-        _images?.add(Images.fromJson(v));
+    _category = json['category'];
+    _price = json['price'];
+    _discountPercentage = json['discountPercentage'];
+    _rating = json['rating'];
+    _stock = json['stock'];
+    _tags = json['tags'] != null ? json['tags'].cast<String>() : [];
+    _brand = json['brand'];
+    _sku = json['sku'];
+    _weight = json['weight'];
+    _dimensions = json['dimensions'] != null ? Dimensions.fromJson(json['dimensions']) : null;
+    _warrantyInformation = json['warrantyInformation'];
+    _shippingInformation = json['shippingInformation'];
+    _availabilityStatus = json['availabilityStatus'];
+    if (json['reviews'] != null) {
+      _reviews = [];
+      json['reviews'].forEach((v) {
+        _reviews?.add(Reviews.fromJson(v));
       });
     }
+    _returnPolicy = json['returnPolicy'];
+    _minimumOrderQuantity = json['minimumOrderQuantity'];
+    _meta = json['meta'] != null ? Meta.fromJson(json['meta']) : null;
+    _images = json['images'] != null ? json['images'].cast<String>() : [];
+    _thumbnail = json['thumbnail'];
   }
-  String? _id;
-  bool? _onSale;
-  num? _salePercent;
-  num? _sold;
-  bool? _sliderNew;
-  bool? _sliderRecent;
-  bool? _sliderSold;
-  String? _date;
+  num? _id;
   String? _title;
-  Categories? _categories;
-  Subcat? _subcat;
-  Shop? _shop;
-  String? _price;
-  String? _saleTitle;
-  String? _salePrice;
   String? _description;
-  String? _color;
-  String? _size;
-  bool? _inWishlist;
-  List<Images>? _images;
-Data copyWith({  String? id,
-  bool? onSale,
-  num? salePercent,
-  num? sold,
-  bool? sliderNew,
-  bool? sliderRecent,
-  bool? sliderSold,
-  String? date,
+  String? _category;
+  num? _price;
+  num? _discountPercentage;
+  num? _rating;
+  num? _stock;
+  List<String>? _tags;
+  String? _brand;
+  String? _sku;
+  num? _weight;
+  Dimensions? _dimensions;
+  String? _warrantyInformation;
+  String? _shippingInformation;
+  String? _availabilityStatus;
+  List<Reviews>? _reviews;
+  String? _returnPolicy;
+  num? _minimumOrderQuantity;
+  Meta? _meta;
+  List<String>? _images;
+  String? _thumbnail;
+Products copyWith({  num? id,
   String? title,
-  Categories? categories,
-  Subcat? subcat,
-  Shop? shop,
-  String? price,
-  String? saleTitle,
-  String? salePrice,
   String? description,
-  String? color,
-  String? size,
-  bool? inWishlist,
-  List<Images>? images,
-}) => Data(  id: id ?? _id,
-  onSale: onSale ?? _onSale,
-  salePercent: salePercent ?? _salePercent,
-  sold: sold ?? _sold,
-  sliderNew: sliderNew ?? _sliderNew,
-  sliderRecent: sliderRecent ?? _sliderRecent,
-  sliderSold: sliderSold ?? _sliderSold,
-  date: date ?? _date,
+  String? category,
+  num? price,
+  num? discountPercentage,
+  num? rating,
+  num? stock,
+  List<String>? tags,
+  String? brand,
+  String? sku,
+  num? weight,
+  Dimensions? dimensions,
+  String? warrantyInformation,
+  String? shippingInformation,
+  String? availabilityStatus,
+  List<Reviews>? reviews,
+  String? returnPolicy,
+  num? minimumOrderQuantity,
+  Meta? meta,
+  List<String>? images,
+  String? thumbnail,
+}) => Products(  id: id ?? _id,
   title: title ?? _title,
-  categories: categories ?? _categories,
-  subcat: subcat ?? _subcat,
-  shop: shop ?? _shop,
-  price: price ?? _price,
-  saleTitle: saleTitle ?? _saleTitle,
-  salePrice: salePrice ?? _salePrice,
   description: description ?? _description,
-  color: color ?? _color,
-  size: size ?? _size,
-  inWishlist: inWishlist ?? _inWishlist,
+  category: category ?? _category,
+  price: price ?? _price,
+  discountPercentage: discountPercentage ?? _discountPercentage,
+  rating: rating ?? _rating,
+  stock: stock ?? _stock,
+  tags: tags ?? _tags,
+  brand: brand ?? _brand,
+  sku: sku ?? _sku,
+  weight: weight ?? _weight,
+  dimensions: dimensions ?? _dimensions,
+  warrantyInformation: warrantyInformation ?? _warrantyInformation,
+  shippingInformation: shippingInformation ?? _shippingInformation,
+  availabilityStatus: availabilityStatus ?? _availabilityStatus,
+  reviews: reviews ?? _reviews,
+  returnPolicy: returnPolicy ?? _returnPolicy,
+  minimumOrderQuantity: minimumOrderQuantity ?? _minimumOrderQuantity,
+  meta: meta ?? _meta,
   images: images ?? _images,
+  thumbnail: thumbnail ?? _thumbnail,
 );
-  String? get id => _id;
-  bool? get onSale => _onSale;
-  num? get salePercent => _salePercent;
-  num? get sold => _sold;
-  bool? get sliderNew => _sliderNew;
-  bool? get sliderRecent => _sliderRecent;
-  bool? get sliderSold => _sliderSold;
-  String? get date => _date;
+  num? get id => _id;
   String? get title => _title;
-  Categories? get categories => _categories;
-  Subcat? get subcat => _subcat;
-  Shop? get shop => _shop;
-  String? get price => _price;
-  String? get saleTitle => _saleTitle;
-  String? get salePrice => _salePrice;
   String? get description => _description;
-  String? get color => _color;
-  String? get size => _size;
-  bool? get inWishlist => _inWishlist;
-  List<Images>? get images => _images;
-
-  Map<String, dynamic> toJson() {
-    final map = <String, dynamic>{};
-    map['_id'] = _id;
-    map['on_sale'] = _onSale;
-    map['sale_percent'] = _salePercent;
-    map['sold'] = _sold;
-    map['slider_new'] = _sliderNew;
-    map['slider_recent'] = _sliderRecent;
-    map['slider_sold'] = _sliderSold;
-    map['date'] = _date;
-    map['title'] = _title;
-    if (_categories != null) {
-      map['categories'] = _categories?.toJson();
-    }
-    if (_subcat != null) {
-      map['subcat'] = _subcat?.toJson();
-    }
-    if (_shop != null) {
-      map['shop'] = _shop?.toJson();
-    }
-    map['price'] = _price;
-    map['sale_title'] = _saleTitle;
-    map['sale_price'] = _salePrice;
-    map['description'] = _description;
-    map['color'] = _color;
-    map['size'] = _size;
-    map['in_wishlist'] = _inWishlist;
-    if (_images != null) {
-      map['images'] = _images?.map((v) => v.toJson()).toList();
-    }
-    return map;
-  }
-
-}
-
-/// id : "2342asdfasdf34"
-/// url : "https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-
-class Images {
-  Images({
-      String? id, 
-      String? url,}){
-    _id = id;
-    _url = url;
-}
-
-  Images.fromJson(dynamic json) {
-    _id = json['id'];
-    _url = json['url'];
-  }
-  String? _id;
-  String? _url;
-Images copyWith({  String? id,
-  String? url,
-}) => Images(  id: id ?? _id,
-  url: url ?? _url,
-);
-  String? get id => _id;
-  String? get url => _url;
+  String? get category => _category;
+  num? get price => _price;
+  num? get discountPercentage => _discountPercentage;
+  num? get rating => _rating;
+  num? get stock => _stock;
+  List<String>? get tags => _tags;
+  String? get brand => _brand;
+  String? get sku => _sku;
+  num? get weight => _weight;
+  Dimensions? get dimensions => _dimensions;
+  String? get warrantyInformation => _warrantyInformation;
+  String? get shippingInformation => _shippingInformation;
+  String? get availabilityStatus => _availabilityStatus;
+  List<Reviews>? get reviews => _reviews;
+  String? get returnPolicy => _returnPolicy;
+  num? get minimumOrderQuantity => _minimumOrderQuantity;
+  Meta? get meta => _meta;
+  List<String>? get images => _images;
+  String? get thumbnail => _thumbnail;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
     map['id'] = _id;
-    map['url'] = _url;
-    return map;
-  }
-
-}
-
-/// _id : "asdf231asdfadsfsad2438rjsd"
-/// is_active : false
-/// created_At : "2023-01-05T07: 56: 19.219Z"
-/// name : "Shirts"
-/// description : "This is enderobe brand"
-/// shopemail : "adenreobe@gmail.com"
-/// shopaddress : "Islamabad F8"
-/// shopcity : "Islamabad"
-/// userid : "23asdfasfdsfd"
-/// image : "https://images.pexels.com/photos/5531004/pexels-photo-5531004.jpeg?auto=compress&cs=tinysrgb&w=1200"
-
-class Shop {
-  Shop({
-      String? id, 
-      bool? isActive, 
-      String? createdAt, 
-      String? name, 
-      String? description, 
-      String? shopemail, 
-      String? shopaddress, 
-      String? shopcity, 
-      String? userid, 
-      String? image,}){
-    _id = id;
-    _isActive = isActive;
-    _createdAt = createdAt;
-    _name = name;
-    _description = description;
-    _shopemail = shopemail;
-    _shopaddress = shopaddress;
-    _shopcity = shopcity;
-    _userid = userid;
-    _image = image;
-}
-
-  Shop.fromJson(dynamic json) {
-    _id = json['_id'];
-    _isActive = json['is_active'];
-    _createdAt = json['created_At'];
-    _name = json['name'];
-    _description = json['description'];
-    _shopemail = json['shopemail'];
-    _shopaddress = json['shopaddress'];
-    _shopcity = json['shopcity'];
-    _userid = json['userid'];
-    _image = json['image'];
-  }
-  String? _id;
-  bool? _isActive;
-  String? _createdAt;
-  String? _name;
-  String? _description;
-  String? _shopemail;
-  String? _shopaddress;
-  String? _shopcity;
-  String? _userid;
-  String? _image;
-Shop copyWith({  String? id,
-  bool? isActive,
-  String? createdAt,
-  String? name,
-  String? description,
-  String? shopemail,
-  String? shopaddress,
-  String? shopcity,
-  String? userid,
-  String? image,
-}) => Shop(  id: id ?? _id,
-  isActive: isActive ?? _isActive,
-  createdAt: createdAt ?? _createdAt,
-  name: name ?? _name,
-  description: description ?? _description,
-  shopemail: shopemail ?? _shopemail,
-  shopaddress: shopaddress ?? _shopaddress,
-  shopcity: shopcity ?? _shopcity,
-  userid: userid ?? _userid,
-  image: image ?? _image,
-);
-  String? get id => _id;
-  bool? get isActive => _isActive;
-  String? get createdAt => _createdAt;
-  String? get name => _name;
-  String? get description => _description;
-  String? get shopemail => _shopemail;
-  String? get shopaddress => _shopaddress;
-  String? get shopcity => _shopcity;
-  String? get userid => _userid;
-  String? get image => _image;
-
-  Map<String, dynamic> toJson() {
-    final map = <String, dynamic>{};
-    map['_id'] = _id;
-    map['is_active'] = _isActive;
-    map['created_At'] = _createdAt;
-    map['name'] = _name;
+    map['title'] = _title;
     map['description'] = _description;
-    map['shopemail'] = _shopemail;
-    map['shopaddress'] = _shopaddress;
-    map['shopcity'] = _shopcity;
-    map['userid'] = _userid;
-    map['image'] = _image;
+    map['category'] = _category;
+    map['price'] = _price;
+    map['discountPercentage'] = _discountPercentage;
+    map['rating'] = _rating;
+    map['stock'] = _stock;
+    map['tags'] = _tags;
+    map['brand'] = _brand;
+    map['sku'] = _sku;
+    map['weight'] = _weight;
+    if (_dimensions != null) {
+      map['dimensions'] = _dimensions?.toJson();
+    }
+    map['warrantyInformation'] = _warrantyInformation;
+    map['shippingInformation'] = _shippingInformation;
+    map['availabilityStatus'] = _availabilityStatus;
+    if (_reviews != null) {
+      map['reviews'] = _reviews?.map((v) => v.toJson()).toList();
+    }
+    map['returnPolicy'] = _returnPolicy;
+    map['minimumOrderQuantity'] = _minimumOrderQuantity;
+    if (_meta != null) {
+      map['meta'] = _meta?.toJson();
+    }
+    map['images'] = _images;
+    map['thumbnail'] = _thumbnail;
     return map;
   }
 
 }
 
-/// _id : "asdf231asdfadsfsad2438rjsd"
-/// type : "Women"
-/// sale_percent : 20
-/// date : "2023-01-05T07: 56: 19.219Z"
-/// name : "Shirts"
+/// createdAt : "2025-04-30T09:41:02.053Z"
+/// updatedAt : "2025-04-30T09:41:02.053Z"
+/// barcode : "5784719087687"
+/// qrCode : "https://cdn.dummyjson.com/public/qr-code.png"
 
-class Subcat {
-  Subcat({
-      String? id, 
-      String? type, 
-      num? salePercent, 
-      String? date, 
-      String? name,}){
-    _id = id;
-    _type = type;
-    _salePercent = salePercent;
-    _date = date;
-    _name = name;
+class Meta {
+  Meta({
+      String? createdAt, 
+      String? updatedAt, 
+      String? barcode, 
+      String? qrCode,}){
+    _createdAt = createdAt;
+    _updatedAt = updatedAt;
+    _barcode = barcode;
+    _qrCode = qrCode;
 }
 
-  Subcat.fromJson(dynamic json) {
-    _id = json['_id'];
-    _type = json['type'];
-    _salePercent = json['sale_percent'];
-    _date = json['date'];
-    _name = json['name'];
+  Meta.fromJson(dynamic json) {
+    _createdAt = json['createdAt'];
+    _updatedAt = json['updatedAt'];
+    _barcode = json['barcode'];
+    _qrCode = json['qrCode'];
   }
-  String? _id;
-  String? _type;
-  num? _salePercent;
-  String? _date;
-  String? _name;
-Subcat copyWith({  String? id,
-  String? type,
-  num? salePercent,
-  String? date,
-  String? name,
-}) => Subcat(  id: id ?? _id,
-  type: type ?? _type,
-  salePercent: salePercent ?? _salePercent,
-  date: date ?? _date,
-  name: name ?? _name,
+  String? _createdAt;
+  String? _updatedAt;
+  String? _barcode;
+  String? _qrCode;
+Meta copyWith({  String? createdAt,
+  String? updatedAt,
+  String? barcode,
+  String? qrCode,
+}) => Meta(  createdAt: createdAt ?? _createdAt,
+  updatedAt: updatedAt ?? _updatedAt,
+  barcode: barcode ?? _barcode,
+  qrCode: qrCode ?? _qrCode,
 );
-  String? get id => _id;
-  String? get type => _type;
-  num? get salePercent => _salePercent;
-  String? get date => _date;
-  String? get name => _name;
+  String? get createdAt => _createdAt;
+  String? get updatedAt => _updatedAt;
+  String? get barcode => _barcode;
+  String? get qrCode => _qrCode;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
-    map['_id'] = _id;
-    map['type'] = _type;
-    map['sale_percent'] = _salePercent;
-    map['date'] = _date;
-    map['name'] = _name;
+    map['createdAt'] = _createdAt;
+    map['updatedAt'] = _updatedAt;
+    map['barcode'] = _barcode;
+    map['qrCode'] = _qrCode;
     return map;
   }
 
 }
 
-/// _id : "asdf231asdfadsfsad2438rjsd"
-/// type : "Women"
-/// sale_percent : 20
-/// date : "2023-01-05T07: 56: 19.219Z"
-/// name : "clothes"
-/// image : "https: //images.pexels.com/photos/4495705/pexels-photo-4495705.jpeg?auto=compress&cs=tinysrgb&w=1200"
+/// rating : 3
+/// comment : "Would not recommend!"
+/// date : "2025-04-30T09:41:02.053Z"
+/// reviewerName : "Eleanor Collins"
+/// reviewerEmail : "eleanor.collins@x.dummyjson.com"
 
-class Categories {
-  Categories({
-      String? id, 
-      String? type, 
-      num? salePercent, 
+class Reviews {
+  Reviews({
+      num? rating, 
+      String? comment, 
       String? date, 
-      String? name, 
-      String? image,}){
-    _id = id;
-    _type = type;
-    _salePercent = salePercent;
+      String? reviewerName, 
+      String? reviewerEmail,}){
+    _rating = rating;
+    _comment = comment;
     _date = date;
-    _name = name;
-    _image = image;
+    _reviewerName = reviewerName;
+    _reviewerEmail = reviewerEmail;
 }
 
-  Categories.fromJson(dynamic json) {
-    _id = json['_id'];
-    _type = json['type'];
-    _salePercent = json['sale_percent'];
+  Reviews.fromJson(dynamic json) {
+    _rating = json['rating'];
+    _comment = json['comment'];
     _date = json['date'];
-    _name = json['name'];
-    _image = json['image'];
+    _reviewerName = json['reviewerName'];
+    _reviewerEmail = json['reviewerEmail'];
   }
-  String? _id;
-  String? _type;
-  num? _salePercent;
+  num? _rating;
+  String? _comment;
   String? _date;
-  String? _name;
-  String? _image;
-Categories copyWith({  String? id,
-  String? type,
-  num? salePercent,
+  String? _reviewerName;
+  String? _reviewerEmail;
+Reviews copyWith({  num? rating,
+  String? comment,
   String? date,
-  String? name,
-  String? image,
-}) => Categories(  id: id ?? _id,
-  type: type ?? _type,
-  salePercent: salePercent ?? _salePercent,
+  String? reviewerName,
+  String? reviewerEmail,
+}) => Reviews(  rating: rating ?? _rating,
+  comment: comment ?? _comment,
   date: date ?? _date,
-  name: name ?? _name,
-  image: image ?? _image,
+  reviewerName: reviewerName ?? _reviewerName,
+  reviewerEmail: reviewerEmail ?? _reviewerEmail,
 );
-  String? get id => _id;
-  String? get type => _type;
-  num? get salePercent => _salePercent;
+  num? get rating => _rating;
+  String? get comment => _comment;
   String? get date => _date;
-  String? get name => _name;
-  String? get image => _image;
+  String? get reviewerName => _reviewerName;
+  String? get reviewerEmail => _reviewerEmail;
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
-    map['_id'] = _id;
-    map['type'] = _type;
-    map['sale_percent'] = _salePercent;
+    map['rating'] = _rating;
+    map['comment'] = _comment;
     map['date'] = _date;
-    map['name'] = _name;
-    map['image'] = _image;
+    map['reviewerName'] = _reviewerName;
+    map['reviewerEmail'] = _reviewerEmail;
+    return map;
+  }
+
+}
+
+/// width : 15.14
+/// height : 13.08
+/// depth : 22.99
+
+class Dimensions {
+  Dimensions({
+      num? width, 
+      num? height, 
+      num? depth,}){
+    _width = width;
+    _height = height;
+    _depth = depth;
+}
+
+  Dimensions.fromJson(dynamic json) {
+    _width = json['width'];
+    _height = json['height'];
+    _depth = json['depth'];
+  }
+  num? _width;
+  num? _height;
+  num? _depth;
+Dimensions copyWith({  num? width,
+  num? height,
+  num? depth,
+}) => Dimensions(  width: width ?? _width,
+  height: height ?? _height,
+  depth: depth ?? _depth,
+);
+  num? get width => _width;
+  num? get height => _height;
+  num? get depth => _depth;
+
+  Map<String, dynamic> toJson() {
+    final map = <String, dynamic>{};
+    map['width'] = _width;
+    map['height'] = _height;
+    map['depth'] = _depth;
     return map;
   }
 
